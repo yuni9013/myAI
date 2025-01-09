@@ -20,7 +20,7 @@ document.getElementById("sendButton").addEventListener("click", async () => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer YOUR_OPENAI_API_KEY`, // APIキーをここに挿入
+        Authorization: `Bearer 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`, // APIキーをここに挿入
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo",
